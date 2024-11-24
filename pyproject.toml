@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "formflow-automation"
+version = "0.1.0"
+description = "A reliable Python-Selenium automation framework for ethical Google Form interactions, featuring smart form detection, randomized submissions, and comprehensive logging capabilities."
+authors = ["Zahra Sabouri <zahrasabouri998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.26.1"
+webdriver-manager = "^4.0.2"
+python-dotenv = "^1.0.1"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
